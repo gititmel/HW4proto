@@ -1,0 +1,73 @@
+body{
+	background : white;
+}
+
+.container{
+	width		: 1024px;  /*standard dimensions*/
+	border 		: solid 1px black;
+	margin 		: 0 auto;  /*centers box */
+}
+
+nav{
+	margin 		: 0 auto;
+	background	: yellow
+	width 		: 90%;
+	height 		: 10px;
+}
+
+nav ul{
+	list-style 	: none;
+	padding 	: 0px;
+	margin 		: 0px;  	/*removes margin from UL box */
+	float		:	left;
+	background	: yellow;
+}
+
+nav ul li{
+	float 		: left;
+	width 		: 254px;
+	text-align	: center;
+	border 		: solid 1px red;
+	background 	: red
+	padding-top : 10px;
+	padding-bottom: 10px;
+}
+
+.banner{
+	background 	: black;
+	height 		: 150px;
+}
+
+.banner h1{
+	color : white;
+	margin : 0px;
+}
+
+.mainArea{
+	background	: yellow;
+	clear 		: 	both;
+}
+
+section{
+	background 	: orange;
+	min-height	: 80vh; 
+	width 		: 50%;  /*dont touch the structure of the layout, edit the content within the div*/
+	float		: left;
+
+}
+
+.content{
+	border 		: solid 1px purple;
+	padding 	: 10px;
+	min-height 	: 200px;
+	border-radius : 10px;
+	margin 		: 5px;
+
+}
+
+footer{
+	font-size 	: 9pt;
+	text-align	: center;
+	color		: #aaa;
+	clear 		: both;
+}
