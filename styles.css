@@ -8,12 +8,12 @@ body{
 }
 
 .banner{
-	background 	: white;
+	background 	: rgba(255,255,255,0.5);
 	position 	: fixed;
 	right 		: 0px;
 	top 		: 0px;
 	width 		: 100%;
-	height 		: 50px;
+	height 		: 40px;
 
 }
 nav{ 
@@ -27,7 +27,6 @@ nav ul{
 	list-style 	: none;
 	padding 	: 0px;
 	margin 		: 0px;
-	background	: white;
 	position 	: absolute;
 	right 		: 15px;
 
@@ -52,7 +51,7 @@ nav ul li a:hover {
 
 .heading{						/*BG for nav*/
 	background-image 	: url("http://efdreams.com/data_images/dreams/mountain/mountain-04.jpg");
-	height 				: 400px;
+	height 				: 325px;
 	justify-content 	: center;
 	color 				: white;
 	font-size 			: 45px;
@@ -63,18 +62,35 @@ nav ul li a:hover {
 	padding-top 	:80px; 
 }
 
-section{
-	background 	: gray;
-	min-height	: 80vh; 
-	width 		: 50%;  
-	float		: left;
-
-}
-
-
 footer{
 	font-size 	: 9pt;
 	text-align	: center;
 	color		: #aaa;
 	clear 		: both;
+}
+
+form {
+       width	:300px;
+       margin	:5px auto;
+       position : absolute;
+       right 	: 10px;
+}
+
+.searchbar {
+	height 	:30px;
+	border 	: 1px solid black;
+	width 	: 100%;
+}
+
+.container {
+	width 		: 100%;
+	background 	: red;
+	border 		: 1px solid black;
+}
+
+section{
+	background 	: gray;
+	min-height	: 80vh; 
+	width 		: 50%;  
+	float 	: left;
 }
