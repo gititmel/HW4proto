@@ -7,6 +7,25 @@ body{
 	font-family : sans-serif;
 }
 
+
+
+.butt{
+	background-color: #008CBA; 
+	float			: right; 
+    border 			: none;
+    color 			: white;
+    padding 		: 10px 16px;
+    text-align		: center;
+    text-decoration	: none;
+    display 		: inline-block;
+    font-size		: 14px;
+    height 			:100%;
+}
+
+.butt:hover{
+	background-color : white;
+	color 			: black;
+}
 .banner{
 	background 	: rgba(255,255,255,0.5);
 	position 	: fixed;
@@ -57,6 +76,7 @@ nav ul li a:hover {
 	font-size 			: 45px;
 }
 
+
 #title{
 	text-align 		:center;
 	padding-top 	:80px; 
@@ -69,32 +89,64 @@ footer{
 	clear 		: both;
 }
 
-form {
-       width	:300px;
-       margin	:5px auto;
-       position : absolute;
-       right 	: 10px;
-}
-
-button
-{
-	   margin	:5px auto;
-       position : absolute;
-       right 	: 350px;
-
-}
 .searchbar {
-	height 	:30px;
-	width 	: 100%;
+	height 		: 40px;
+	width 		: 100%;
+	position 	: relative;
+	background 	: rgba(0,0,0,0);
 }
 
-.container {
-	width 		: 100%;
+.container{
+	width 				: 100%;
+	border-color 		: black;
 }
 
 section{
-	background 	: gray;
-	min-height	: 80vh; 
-	width 		: 50%;  
-	float 	: left;
+	height		: 400px;
+	float 		:left;
+	border 		: black;
+}
+
+#googleMap {
+	overflow	: hidden;
+	height 		:400px;
+	width 		:900px;
+	border 		:1px auto black;
+	float 		:left;
+}
+
+#gmap_canvas img{
+	max-width 	:none!important;
+	background 	:none!important;
+	height 		:400px;
+	width 		:100%;
+}
+
+#gmap_canvas {
+	height 	:400px;
+	width 	:100%;
+}
+
+.forms{
+	float		: left;
+	background-color: gray;
+	height 		:400px;
+	width 		:30%;
+}
+
+table{
+	position 	:relative;
+	top 		:20px;
+	margin 		: 0 auto;
+	right 		:0px;
+}
+
+h2{
+	text-align: center;
+}
+
+.maps{
+	float : left;
+	width : 70%;
+	background-color: yellow;
 }
