@@ -1,5 +1,5 @@
 body{
-	background 	: white;
+	background 	: purple;
 	color 		: black;
 }
 
@@ -7,7 +7,27 @@ body{
 	font-family : sans-serif;
 }
 
+#lightbox{
+			width 		:100vw;
+			height 		:100vh; 
+			background 	:rgba(0,0,0,0.8);
+			position 	:fixed;
+			z-index 	:1000; 
+			top 		:0px;
+			left 		:0px;
+			display 	:none; 
+		}
 
+#lbcontentArea{
+			width 	 		: 50vw;
+			height 			: 50vh;
+			background 		: rgba(255, 255, 255, 1);
+			border-radius 	: 15px;
+			margin 			: 0 auto; /*this one first*/
+			margin-top 		: 10vh;
+			position 		: relative; /*allows to control the child in an absolute way */
+
+}
 
 .butt{
 	background-color: #008CBA; 
@@ -110,8 +130,7 @@ section{
 #googleMap {
 	overflow	: hidden;
 	height 		:400px;
-	width 		:900px;
-	border 		:1px auto black;
+	width 		:70%;
 	float 		:left;
 }
 
